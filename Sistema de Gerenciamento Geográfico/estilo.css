@@ -1,0 +1,305 @@
+.container {
+    width: 500px;
+    
+}
+@media screen and (max-width: 600px) {
+   .container {
+        width: 100%;
+       
+    }
+}
+    .container {
+    width: 100%;
+   
+}
+@media screen and (min-width: 600px) {
+   .container {
+        width: 500px;
+        
+    }
+} 
+#titulo{
+    text-align: center;
+    color: #04C9F4;
+    padding:5vh;
+    background-color: white;
+}
+
+#corpo{
+    background-color: #E7E7E7;
+    margin: 0%;
+}
+
+#entrar {
+    background-color: #04C9F4;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-top: 5px;
+    margin-top: 1vh;
+    margin-left: 16vh;
+}
+
+
+.container{
+    background-color: #D9D9D9;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 5vh;
+    padding-top: 15px;
+
+    
+}
+
+.inputs{
+    height: 4vh;  
+    display: flex;
+    margin-left: 8.5vh;
+    width: 35vh;
+    margin-bottom: 1vh;
+    
+}
+
+#logo1{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-left: 16vh;
+    margin-top: 25px;
+}
+
+
+
+#home{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #D9D9D9;
+    color:black;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 0;
+}
+
+#cadastros{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #D9D9D9;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 45px;
+    border-right: 0;
+}
+
+#cidade{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #04C9F4;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 0;
+}
+
+#estado{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #04C9F4;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 0;
+}
+
+#pais{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #04C9F4;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 0;
+}
+
+#usuario{
+    border: solid 1px white;
+    height: 100%;
+    width: 20vh;
+    background-color: #04C9F4;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 0;
+}
+
+#pitens{
+    background-color: #D9D9D9;
+    display: grid;
+    height: 100%;
+    width: 40px;
+    padding-bottom: 68vh;
+    width: 190px;
+   
+}
+
+#top1{
+    margin-top: 0%;
+    background-color: #E7E7E7;
+    display: flex;
+    
+}
+
+.top2{
+    margin: 0%;
+    background-color:white;
+    display: flex;
+    
+}
+
+footer{
+    text-align: center;
+    color: #04C9F4;
+    padding:3vh;
+    background-color: white;
+    width: 175.5vh;
+}
+
+#fotohome{
+padding: 11.5vh;
+align-items: center;
+padding-bottom:33vh;
+padding-top: 12vh;
+padding-left: 68vh;
+
+}
+
+#conteudo{
+    text-align: left;
+    color: white;
+    padding:3vh;
+    background-color: #04C9F4;
+    width: 175.5vh;
+}
+
+#regiao{
+    background-color: #D9D9D9;
+    margin: 0;
+}
+
+p{
+    color: white;
+}
+
+.inputs{
+    border: none;
+}
+
+#estcod{
+    background-color: #D9D9D9;
+    margin: 0; 
+    display: flex;
+}
+
+#nome{
+    background-color: #D9D9D9;
+    margin: 0;
+}
+
+.azul{
+    width: 12vh;
+    padding: 1vh;
+    border: none;
+    color: white;
+    background-color: #04C9F4;
+    margin-left:1vh ;
+    margin-right: 1vh ;
+}
+
+#excluir{
+
+    width: 12vh;
+    padding: 1vh;
+    border: none;
+    color: white;
+    background-color: red;
+    margin-left:1vh ;
+    margin-right: 1vh ;
+}
+
+#cancelar{
+    width: 12vh;
+    padding: 1vh;
+    border: none;
+    color: #04C9F4;
+    background-color: white;
+    margin-left:1vh ;
+    margin-right: 1vh ;
+}
+
+.botoes {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1vh;
+    
+}
+
+.tudohome{
+    padding-left: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 25vh;
+    background-color: #D9D9D9;
+}
+
+.tudohome2{
+    background-color: #E7E7E7;
+}
+
+#espaco{
+    padding: 1vh;
+    padding-right: 90vh;
+}
+
+#baixo{
+    padding-top: 46vh;
+}
+
+#baixo1{
+    padding-top: 56.8vh;
+}
+
+#baixo3{
+    padding-top: 67.2vh;
+}                               
